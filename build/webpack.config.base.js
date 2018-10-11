@@ -39,7 +39,8 @@ module.exports = {
       "TimelineLite": resolve(__dirname, '../node_modules/gsap/src/uncompressed/TimelineLite.js'),
       "TimelineMax": resolve(__dirname, '../node_modules/gsap/src/uncompressed/TimelineMax.js'),
       "ScrollMagic": resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),
-      "animation.gsap": resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js')
+      "animation.gsap": resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js'),
+      "debug.addIndicators": resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js')
     }
   },
   module: {
