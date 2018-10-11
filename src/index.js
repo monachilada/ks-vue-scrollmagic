@@ -1,6 +1,7 @@
 import gsap from 'TweenMax'
 import ScrollMagic from 'ScrollMagic'
 require('animation.gsap')
+require('debug.addIndicators')
 
 function plugin (Vue) {
   Vue.prototype.$gsap = gsap
