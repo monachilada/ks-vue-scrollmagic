@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const { resolve } = require('path')
-const CompressionPlugin = require("compression-webpack-plugin")
+const CompressionPlugin = require('compression-webpack-plugin')
 
 const {
   banner,
@@ -34,13 +34,13 @@ module.exports = {
     extensions: ['.js', '.vue', '.jsx', 'css'],
     alias: {
       'src': resolve(__dirname, '../src'),
-      "TweenLite": resolve(__dirname, '../node_modules/gsap/src/uncompressed/TweenLite.js'),
-      "TweenMax": resolve(__dirname, '../node_modules/gsap/src/uncompressed/TweenMax.js'),
-      "TimelineLite": resolve(__dirname, '../node_modules/gsap/src/uncompressed/TimelineLite.js'),
-      "TimelineMax": resolve(__dirname, '../node_modules/gsap/src/uncompressed/TimelineMax.js'),
-      "ScrollMagic": resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),
-      "animation.gsap": resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js'),
-      "debug.addIndicators": resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js')
+      'TweenLite': resolve(__dirname, '../node_modules/gsap/src/uncompressed/TweenLite.js'),
+      'TweenMax': resolve(__dirname, '../node_modules/gsap/src/uncompressed/TweenMax.js'),
+      'TimelineLite': resolve(__dirname, '../node_modules/gsap/src/uncompressed/TimelineLite.js'),
+      'TimelineMax': resolve(__dirname, '../node_modules/gsap/src/uncompressed/TimelineMax.js'),
+      'ScrollMagic': resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js'),
+      'animation.gsap': resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js'),
+      'debug.addIndicators': resolve(__dirname, '../node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js')
     }
   },
   module: {
